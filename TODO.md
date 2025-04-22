@@ -51,3 +51,13 @@ Lista de tareas para seguir construyendo esta joya del subdesarrollo digital con
 ## 🙏 Última línea (de dignidad)
 
 > Este proyecto se mantiene vivo gracias a la pobreza estructural, la rabia creativa y el backend de Render.
+
+# nombres para el dominio:
+
+- ascetadev.dev # del griego koiné "ascetico"
+- desarrolloparapobres.es # idea original
+- yo-programo-gratis.es # nombre meme
+- elcultodelbackendgratis.com
+- codigosinplata.com
+- tecleandoconpan.com
+- renderteodio.com

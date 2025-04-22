@@ -1,11 +1,11 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
 import NavBar from "./components/NavBar.vue";
+import Video from "./components/Video.vue";
 </script>
 
 <template>
   <NavBar />
-  <HelloWorld />
+  <Video />
 </template>
 
 <style scoped></style>
