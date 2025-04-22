@@ -6,7 +6,10 @@
       class="max-w-6xl mx-auto px-4 flex flex-col items-center text-center space-y-4"
     >
       <p class="text-white text-lg font-semibold">
-        Desarrollado en la fe y el hambre
+        Desarrollado con cariño desde el paro por
+        <a href="https://yampi.eu/" class="text-primary-400 hover:underline"
+          >Yampi</a
+        >
       </p>
 
       <blockquote class="italic text-gray-500 max-w-lg">
@@ -28,8 +31,7 @@
       </ul>
 
       <div class="text-xs text-gray-600 mt-4">
-        &copy; 2025 Culto Dev Pobre. Servido desde SQLite. Sin cookies, sin
-        promesas.
+        &copy; 2025 ascetaDev. Servido desde SQLite. Sin cookies, sin promesas.
       </div>
     </div>
   </footer>
