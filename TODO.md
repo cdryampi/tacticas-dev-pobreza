@@ -11,6 +11,7 @@ Lista de tareas para seguir construyendo esta joya del subdesarrollo digital con
 - [ ] Página `/setup` con comandos como `npm install pobreza --save-dev`
 - [ ] Toggle de “Modo Oscuro” llamado “Modo Pobreza Extrema”
 - [ ] Footer con frase tipo: _“Hecho desde el paro, deployado con fe”_
+- [ ] Añadir `/anecdotas` una sección de anécdotas de pobreza dev (ej: “Una empresa me ofreció 'visibilidad' en vez de sueldo. Acepté, y ahora soy visible... en el paro.”)
 
 ---
 

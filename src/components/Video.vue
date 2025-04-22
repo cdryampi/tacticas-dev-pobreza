@@ -1,4 +1,13 @@
-<script setup></script>
+<script setup>
+import { ref, onMounted } from "vue";
+const moveArrow = () => {
+  // Función que mueve la flecha hacia abajo hacia la primera sección
+  const sections = document.getElementsByTagName("section");
+  if (sections.length > 0) {
+    sections[0].scrollIntoView({ behavior: "smooth" });
+  }
+};
+</script>
 <template>
   <div
     class="relative min-h-screen flex items-center justify-center text-white overflow-hidden"
@@ -30,6 +39,27 @@
       >
         $ npm install pobreza
       </a>
+      <div class="absolute bottom-1/5 left-1/2 transform -translate-x-1/2">
+        <button
+          @click="moveArrow"
+          class="bg-white text-black rounded-full p-2 shadow-lg hover:bg-gray-200 transition cursor-pointer animate-bounce"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 4v16m0 0l4-4m-4 4l-4-4"
+            />
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
 </template>
