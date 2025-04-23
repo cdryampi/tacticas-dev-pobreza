@@ -2,7 +2,9 @@
 import NavBar from "./components/NavBar.vue";
 import Video from "./components/Video.vue";
 import BackToTop from "./components/BackToTop.vue";
-import TimeLine from "./components/TimeLine.vue";
+import Mandamiento from "./components/Mandamiento.vue";
+import Dogma from "./components/Dogma.vue";
+
 import Footer from "./components/Footer.vue";
 </script>
 
@@ -10,7 +12,8 @@ import Footer from "./components/Footer.vue";
   <BackToTop />
   <NavBar />
   <Video />
-  <TimeLine />
+  <Mandamiento />
+  <Dogma />
   <Footer />
 </template>
 

@@ -1,23 +1,23 @@
 <script setup>
 import { ref } from "vue";
-import { timelineData } from "../data/timelineData.js";
+import { mandamientoData } from "../data/mandamientoData.js";
 
 const spinner = ref(false);
 
-const timeLineList = ref(timelineData.splice(0, 3));
+const mandamientoList = ref(mandamientoData.splice(0, 3));
 
 const loadMore = () => {
   spinner.value = true;
   setTimeout(() => {
     spinner.value = false;
-    updateTimeLineList();
+    updateMandamientoList();
   }, 1000);
 };
 
-const updateTimeLineList = () => {
-  const newItems = timelineData.splice(0, 3);
+const updateMandamientoList = () => {
+  const newItems = mandamientoData.splice(0, 3);
   if (newItems.length > 0) {
-    timeLineList.value.push(...newItems);
+    mandamientoList.value.push(...newItems);
   } else {
     console.log("No hay más elementos para cargar.");
   }
@@ -28,7 +28,7 @@ const updateTimeLineList = () => {
     <h2
       class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white text-center mb-8 md:mb-16"
     >
-      Roadmap del Culto Dev Pobre
+      Mandamiento de los aspirantes a ascetadevs:
     </h2>
     <blockquote class="italic dark:text-gray-400 mb-12 text-center">
       “Cada crash, cada deploy fallido… nos acerca más a la iluminación backend
@@ -41,7 +41,7 @@ const updateTimeLineList = () => {
       ></div>
 
       <div
-        v-for="(item, index) in timeLineList"
+        v-for="(item, index) in mandamientoList"
         :key="item.id"
         class="flex flex-col md:flex-row items-center mb-6 relative group"
         :class="{ 'md:flex-row-reverse': index % 2 !== 0 }"
@@ -96,7 +96,7 @@ const updateTimeLineList = () => {
         <button
           type="button"
           @click="loadMore"
-          v-if="!spinner && timelineData.length > 0"
+          v-if="!spinner && mandamientoData.length > 0"
           class="p-4 flex items-center rounded-full border border-primary-300 bg-primary-950 text-sm font-medium text-primary-100 hover:bg-primary-100 hover:text-primary-950 transition-all duration-300"
         >
           <svg class="mr-2 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

@@ -12,6 +12,17 @@ Lista de tareas para seguir construyendo esta joya del subdesarrollo digital con
 - [ ] Toggle de “Modo Oscuro” llamado “Modo Pobreza Extrema”
 - [ ] Footer con frase tipo: _“Hecho desde el paro, deployado con fe”_
 - [ ] Añadir `/anecdotas` una sección de anécdotas de pobreza dev (ej: “Una empresa me ofreció 'visibilidad' en vez de sueldo. Acepté, y ahora soy visible... en el paro.”)
+- [x] Cambiar el roadmap por `mandamientos del desarrollador pobre` (ej: “No robarás el código de tu compañero, pero sí su café.”)
+
+---
+
+## inicio
+
+- [ ] Sección "Manifiesto del Dogma" con <h2> y párrafo épico
+- [ ] Sección de "Componentes milagrosos" en cards (con emojis)
+- [ ] Testimonios de devs iluminados (blockquote)
+- [ ] Contador de bugs tipo "🐛 Bugs sin resolver: ∞"
+- [ ] Añadir todo a Inicio.vue con diseño tailwind + flowbite
 
 ---
 
